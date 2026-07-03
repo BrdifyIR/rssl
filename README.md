@@ -15,4 +15,4 @@
 کافیست دستور زیر را به صورت کامل کپی کرده و در ترمینال سرور خود (با دسترسی root) پیست کنید تا اسکریپت به صورت خودکار دانلود، فعال و اجرا شود:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/BrdifyIR/rssl/main/rssl.sh(https://raw.githubusercontent.com/BrdifyIR/rssl/main/rssl.sh) -o /usr/local/bin/rssl && chmod +x /usr/local/bin/rssl && rssl
+curl -sL https://raw.githubusercontent.com/BrdifyIR/rssl/main/rssl.sh -o /usr/local/bin/rssl && chmod +x /usr/local/bin/rssl && rssl
