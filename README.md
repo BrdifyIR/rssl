@@ -31,3 +31,12 @@
 
 ```bash
 curl -sL https://raw.githubusercontent.com/BrdifyIR/rssl/main/rssl.sh -o /usr/local/bin/rssl && chmod +x /usr/local/bin/rssl && rssl
+```
+
+## 💻 دستورات خط فرمان (CLI Commands)
+برای استفاده سریع یا استفاده در اسکریپت‌های دیگر، می‌توانید از دستورات زیر استفاده کنید:
+
+• نصب اسکریپت و تنظیم کرون‌جاب:
+```bash
+rssl --install
+```
