@@ -40,3 +40,42 @@ curl -sL https://raw.githubusercontent.com/BrdifyIR/rssl/main/rssl.sh -o /usr/lo
 ```bash
 rssl --install
 ```
+• بروزرسانی اسکریپت به آخرین نسخه:
+```bash
+rssl --upgrade
+```
+
+• حذف کامل اسکریپت و سرویس‌های آن از سیستم:
+```bash
+rssl --uninstall
+```
+• تنظیم یا تغییر توکن و چت‌آیدی ربات تلگرام:
+```bash
+rssl --telegram
+```
+
+• حذف تنظیمات ربات تلگرام و توقف اعلانات:
+```bash
+rssl --telegram-del
+```
+
+• مشاهده نسخه فعلی اسکریپت:
+```bash
+rssl -v
+```
+
+## 📝 صدور گواهی SSL با یک دستور
+فرمت کلی دستور برای صدور گواهی به شرح زیر است:
+```bash
+rssl [ایمیل] [دامنه۱ دامنه۲ ...] [نام پنل یا مسیر سفارشی]
+```
+
+• مثال برای پنل Marzban:
+```bash
+rssl user@example.com mydomain.com sub.mydomain.com marzban
+```
+
+• مثال برای مسیر سفارشی در سرور:
+```bash
+rssl user@example.com mydomain.com /var/www/certs
+```
